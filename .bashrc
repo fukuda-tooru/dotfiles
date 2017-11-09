@@ -33,11 +33,11 @@ function tmux_automatically_attach_session()
             ! is_exists 'tmux' && return 1
 
             if is_tmux_runnning; then
-                printf "  _ \n"
+                printf "\e[33m  _ \n"
                 printf " | |_ _ __ ___  _   ___  __\n"
                 printf " | __| '_ "\`" _ \| | | \ \/ /\n"
                 printf " | |_| | | | | | |_| |>  <\n"
-                printf "  \__|_| |_| |_|\__,_/_/\_\ \\n"
+                printf "  \__|_| |_| |_|\__,_/_/\_\ \\n\e[m"
         elif is_screen_running; then
             echo "This is on screen."
             fi
