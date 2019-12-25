@@ -1,0 +1,27 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+[BracketLeft]",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+[Minus]",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "cmd+[",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "ctrl+[IntlRo]",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+[Minus]",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "shift+cmd+[Minus]",
+        "command": "-workbench.action.zoomIn"
+    }
+]
